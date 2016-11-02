@@ -1,0 +1,33 @@
+<resources>
+    <!--pantalla de registro-->
+    <string name="app_name">Pantalla de Login</string>
+    <string name="tx_ingresenombre">Ingrese su Nombre:</string>
+    <string name="tx_ingreseapellido">Ingrese su Apellido:</string>
+    <string name="tx_ingresecorreo">Ingrese Su Correo Electronico:</string>
+    <string name="tx_ingresetelefono">Ingrese Su Numero Telefonico:</string>
+    <string name="tx_ingreseusuario">Ingrese Su Usuario:</string>
+    <string name="tx_ingresecontraseña">Ingrese Su Contraseña:</string>
+    <string name="bt_ingresar">Ingresar</string>
+    <string name="ht_ejemploNombre">Ingrese aqui su nombre</string>
+    <string name="ht_ejemploApellido">Ingrese aqui su apellido</string>
+    <string name="ht_ejemplousuario">abc123</string>
+    <string name="ht_ejemplocontraseña">12345678</string>
+    <string name="ht_ejemploTelefono">Ingrese aqui su Numero Telefonico</string>
+    <string name="ht_ejemploCorreo">Ingrese aqui su Correo Electronico</string>
+    <!--pantalla de registro fin-->
+
+    <!--pantalla Login-->
+    <string name="tx_usuario">Ingrese Su Usuario </string>
+    <string name="tx_contraseña">Ingrese Su Contraseña</string>
+    <string name="tx_login">LOGIN</string>
+    <string name="bt_loguear">iNGRESAR !!!</string>
+    <!--pantalla Login fin-->
+
+    <!--pantalla registro de igresos-->
+    <string name="tx_ingresos">Ingrese El Monto Inicial </string>
+    <string name="tx_formapago">Ingrese La Forma De Pago</string>
+    <string name="tx_describcion">Describcion</string>
+    <string name="bt_capitalizar">ACEPTAR !!!</string>
+    <!--pantalla registro de igresos-->
+
+</resources>
