@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_crear__transferencia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="programaciondario_1.proyectodemo.Crear_Transferencia">
+
+    <TextView
+        android:text="@string/tx_Donante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView30"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView31"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:fontFamily="sans-serif-smallcaps" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/textView31"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/editText12" />
+
+    <TextView
+        android:text="@string/tx_MDonante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView32"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editText13"
+        android:layout_alignBaseline="@+id/textView32"
+        android:layout_alignBottom="@+id/textView32"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:inputType="number" />
+
+    <TextView
+        android:text="@string/tx_Mtrasferir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView32"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView33"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:fontFamily="sans-serif-smallcaps" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/textView33"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/editText14" />
+
+    <TextView
+        android:text="@string/tx_Receptor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView34"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:fontFamily="sans-serif-smallcaps" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/textView34"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/editText15" />
+
+    <TextView
+        android:text="@string/tx_MReceptor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView35"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText16"
+        android:layout_toRightOf="@+id/editText15"
+        android:layout_toEndOf="@+id/editText15"
+        android:layout_below="@+id/editText15"
+        android:layout_alignBottom="@+id/textView35" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/editText17"
+        android:layout_alignBottom="@+id/textView37"
+        android:layout_alignTop="@+id/textView37" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/editText18"
+        android:layout_alignBottom="@+id/textView38"
+        android:layout_alignTop="@+id/textView38" />
+
+    <TextView
+        android:text="@string/tx_transferencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView30"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/tx_MReceptor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView38"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="66dp" />
+
+    <TextView
+        android:text="@string/tx_MDonante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView37"
+        android:textSize="18sp"
+        android:layout_above="@+id/textView38"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="19dp" />
+
+    <TextView
+        android:text="@string/tx_explicacion7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView36"
+        android:textSize="18sp"
+        android:fontFamily="cursive"
+        android:layout_above="@+id/editText17"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="22dp"
+        android:textAlignment="center" />
+
+</RelativeLayout>

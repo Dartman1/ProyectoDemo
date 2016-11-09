@@ -11,69 +11,146 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="programaciondario_1.proyectodemo.Registrar_Ingreso">
 
-    <LinearLayout
-        android:orientation="vertical"
+
+    <TextView
+        android:text="@string/tx_explicacion3"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentBottom="true">
+        android:layout_height="wrap_content"
+        android:id="@+id/textView15"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
-        <TextView
-            android:text="@string/tx_ingresos"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView10"
-            android:layout_toRightOf="@+id/textView9"
-            android:layout_toEndOf="@+id/textView9" />
 
-        <EditText
+    <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
             android:ems="10"
             android:id="@+id/editText"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="92dp" />
+        android:singleLine="true"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
-        <TextView
+    <TextView
+            android:text="@string/tx_ingresos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+        android:typeface="sans"
+            android:textStyle="normal|bold"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="18sp"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
             android:text="@string/tx_formapago"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView8"
-            android:layout_alignTop="@+id/editText5"
-            android:layout_alignLeft="@+id/textView10"
-            android:layout_alignStart="@+id/textView10" />
+        android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
-        <EditText
-            android:layout_width="325dp"
-            android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:ems="10"
-            android:id="@+id/editText5"
-            android:layout_marginTop="77dp"
-            android:layout_below="@+id/editText2"
-            android:layout_alignLeft="@+id/editText2"
-            android:layout_alignStart="@+id/editText2" />
+    <TextView
+        android:text="@string/tx_explicacion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:id="@+id/editText23"
+        android:weightSum="1"
+        android:layout_weight="0.05"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <TextView
             android:text="@string/tx_describcion"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="127dp"
             android:id="@+id/textView9"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_alignTop="@+id/textView8" />
+            android:layout_alignTop="@+id/textView8"
+            android:layout_weight="1.44"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="normal|bold"
+            android:layout_height="25dp" />
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="185dp"
+            android:layout_height="100dp"
             android:inputType="text"
             android:ems="10"
             android:id="@+id/editText2"
-            android:layout_alignTop="@+id/textView10"
-            android:layout_alignLeft="@+id/editText"
-            android:layout_alignStart="@+id/editText" />
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginBottom="28dp" />
 
     </LinearLayout>
+
+    <Button
+        android:text="@string/bt_aceptaringreso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/bt_regresaringreso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:id="@+id/lista1"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_alignEnd="@+id/textView8" />
+
+    <TextView
+        android:text="@string/tx_explicacion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:layout_weight="0.02"
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+        android:layout_below="@+id/lista1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+
 </RelativeLayout>

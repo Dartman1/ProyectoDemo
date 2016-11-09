@@ -20,14 +20,59 @@
     <string name="tx_usuario">Ingrese Su Usuario </string>
     <string name="tx_contraseña">Ingrese Su Contraseña</string>
     <string name="tx_login">LOGIN</string>
-    <string name="bt_loguear">iNGRESAR !!!</string>
+    <string name="bt_loguear">Ingresar !!!</string>
+    <string name="bt_recuperar">Recuperar contraseña </string>
+
     <!--pantalla Login fin-->
 
     <!--pantalla registro de igresos-->
-    <string name="tx_ingresos">Ingrese El Monto Inicial </string>
-    <string name="tx_formapago">Ingrese La Forma De Pago</string>
-    <string name="tx_describcion">Describcion</string>
+    <string name="tx_R_ingresos">Registrar Nuevo Ingreso </string>
+    <string name="tx_ingresos">Forma de Capitalizacion</string>
+    <string name="tx_formapago">Cantidad Inicial (Monto)</string>
+    <string name="tx_describcion">Descripcion</string>
     <string name="bt_capitalizar">ACEPTAR !!!</string>
+    <string name="tx_explicacion1">Selecciona la forma como tienes representado este ingreso</string>
+    <string name="tx_explicacion2">Ingresa la cantidad de dinero con la que inicias tu contabilidad personal</string>
+    <string name="tx_explicacion3">Registro de Ingresos</string>
+    <string name="tx_explicacion4">Registro de Inicial</string>
     <!--pantalla registro de igresos-->
+    <string name="bt_aceptaringreso">Aceptar</string>
+    <string name="bt_regresaringreso">Regresar</string>
+
+
+    <!--pantalla de menu-->
+    <string name="title_activity_menu1">menu1</string>
+    <string name="tx_menuopciones">Menu De Opciones</string>
+    <string name="bt_crearnuevoi">Crear Nuevo Registro De Ingreso</string>
+    <string name="ht_CNregistroi">Al seleccionar esta opcion podras capitalizar tus financias(introducir dinero a tu contabilidad) </string>
+    <string name="bt_crearnuevoe">Crear Nuevo Registro De Egreso</string>
+    <string name="ht_CNregistroe">Al seleccionar esta opcion podras registrar tus gastos e inverciones de manera sencilla y clara </string>
+    <string name="bt_crearnuevot">Crear Nueva transferencia de efectivo</string>
+    <string name="ht_CNregistrot">Al seleccionar esta opcion podras cambiar el modo como se tiene represento su capital(por ejemplo de tarjeta debito a efectivo) </string>
+    <!--pantalla registro de egresos-->
+    <string name="tx_R_egresos">Registrar Nuevo Egreso </string>
+    <string name="tx_egresos">Forma de Pago</string>
+    <string name="tx_explicacion5">Selecciona la forma como se realiza el pago (cuenta de la que se debita)</string>
+    <string name="tx_formapago2">Cantidad  (Monto)</string>
+    <string name="tx_explicacion6">Ingresa la cantidad de dinero pagada</string>
+    <string name="tx_concepto">concepto</string>
+    <string name="tx_area">Area</string>
+    <string name="tx_servicio">Elemento o Servicio</string>
+    <string name="tx_otro">Otro</string>
+    <string name="bt_registraregreso">Registrar Egreso</string>
+    <string name="bt_actualizar">Actualizar</string>
+    <string name="ht_ejemplonoesta">si no esta</string>
+
+    <!--pantalla de transferencia-->
+
+    <string name="tx_transferencia">Crear Transferncia</string>
+    <string name="tx_Donante">Seleccionar Registro De Ingreso Donante</string>
+    <string name="tx_MDonante">Monto Donante</string>
+    <string name="tx_Mtrasferir">Ingrese elmonto a transferir</string>
+    <string name="tx_Receptor">Seleccionar Registro De Ingreso Receptor</string>
+    <string name="tx_MReceptor">Monto Receptor</string>
+    <string name="tx_explicacion7">Montor Despues de las Transferncias</string>
+    <string name="bt_transferir">Transferir</string>
+    <string name="bt_Aceptar3">Aceptar</string>
 
 </resources>

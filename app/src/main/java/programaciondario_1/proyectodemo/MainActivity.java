@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
                 EditText Cajatexto = (EditText) findViewById(R.id.ET_Nombre);
                 String nombre = Cajatexto.getText().toString();
                 //Ejecuta mensaje
-                Toast.makeText(getApplicationContext(), "hola " + nombre, Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Registro Exitoso !!! " + nombre, Toast.LENGTH_LONG).show();
                 //Inicia una nueva actividad
                 Intent i = new Intent(getApplicationContext(), SumadorActivity.class);
                 startActivity(i);

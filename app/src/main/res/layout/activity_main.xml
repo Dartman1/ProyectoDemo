@@ -12,127 +12,12 @@
     tools:context="programaciondario_1.proyectodemo.MainActivity">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tx_ingreseapellido"
-        android:id="@+id/textView3"
-        android:layout_below="@+id/ET_Nombre"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="14dp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tx_ingresecorreo"
-        android:id="@+id/textView4"
-        android:layout_marginTop="15dp"
-        android:layout_below="@+id/ET_Apellido"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tx_ingresetelefono"
-        android:id="@+id/textView5"
-        android:layout_marginTop="15dp"
-        android:layout_below="@+id/ET_Correo"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/ET_Nombre"
-        android:hint="@string/ht_ejemploNombre"
-        android:layout_below="@+id/textView2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tx_ingresenombre"
-        android:id="@+id/textView2"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/ET_Apellido"
-        android:hint="@string/ht_ejemploApellido"
-        android:layout_below="@+id/textView3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:id="@+id/ET_Correo"
-        android:hint="@string/ht_ejemploCorreo"
-        android:inputType="textEmailAddress"
-        android:layout_below="@+id/textView4"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/ET_Telefono"
-        android:hint="@string/ht_ejemploTelefono"
-        android:inputType="phone"
-        android:layout_below="@+id/textView5"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
     <Button
         android:text="@string/bt_ingresar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/buttoni"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <TextView
-        android:text="@string/tx_ingreseusuario"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView6"
-        android:layout_above="@+id/editText4"
-        android:layout_alignRight="@+id/textView3"
-        android:layout_alignEnd="@+id/textView3"
-        android:layout_marginBottom="13dp" />
-
-    <TextView
-        android:text="@string/tx_ingresecontraseña"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView"
-        android:layout_weight="1"
-        android:layout_alignBaseline="@+id/textView6"
-        android:layout_alignBottom="@+id/textView6"
-        android:layout_toRightOf="@+id/textView5"
-        android:layout_toEndOf="@+id/textView5" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/editText4"
-        android:hint="@string/ht_ejemplousuario"
-        android:layout_marginBottom="16dp"
-        android:layout_above="@+id/buttoni"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -144,9 +29,168 @@
         android:id="@+id/editText3"
         android:layout_weight="1"
         android:hint="@string/ht_ejemplocontraseña"
-        android:layout_alignBaseline="@+id/editText4"
-        android:layout_alignBottom="@+id/editText4"
-        android:layout_alignLeft="@+id/textView"
-        android:layout_alignStart="@+id/textView" />
+        android:fontFamily="serif-monospace"
+        android:textSize="14sp"
+        android:layout_above="@+id/buttoni"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="24dp"
+        android:layout_alignRight="@+id/editText4"
+        android:layout_alignEnd="@+id/editText4" />
+
+    <TextView
+        android:text="@string/tx_ingresecontraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_above="@+id/editText3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:hint="@string/ht_ejemplousuario"
+        android:textSize="14sp"
+        android:fontFamily="serif-monospace"
+        android:layout_marginBottom="14dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView6"
+        android:layout_alignEnd="@+id/textView6" />
+
+    <TextView
+        android:text="@string/tx_ingreseusuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_above="@+id/editText4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ET_Telefono"
+        android:hint="@string/ht_ejemploTelefono"
+        android:inputType="phone"
+        android:textSize="14sp"
+        android:fontFamily="serif-monospace"
+        android:layout_above="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tx_ingresetelefono"
+        android:id="@+id/textView5"
+        android:textStyle="normal|bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="18sp"
+        android:layout_above="@+id/ET_Telefono"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/ET_Correo"
+        android:hint="@string/ht_ejemploCorreo"
+        android:inputType="textEmailAddress"
+        android:fontFamily="serif-monospace"
+        android:textSize="14sp"
+        android:layout_above="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tx_ingresecorreo"
+        android:id="@+id/textView4"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:layout_above="@+id/ET_Correo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/ET_Apellido"
+        android:hint="@string/ht_ejemploApellido"
+        android:fontFamily="serif-monospace"
+        android:textSize="14sp"
+        android:layout_above="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="19dp"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tx_ingreseapellido"
+        android:id="@+id/textView3"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_above="@+id/ET_Apellido"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/ET_Nombre"
+        android:hint="@string/ht_ejemploNombre"
+        android:fontFamily="serif-monospace"
+        android:textSize="14sp"
+        android:layout_above="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tx_ingresenombre"
+        android:id="@+id/textView2"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_above="@+id/ET_Nombre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/tx_explicacion4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/textView12"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:fontFamily="sans-serif-smallcaps" />
 
 </RelativeLayout>
