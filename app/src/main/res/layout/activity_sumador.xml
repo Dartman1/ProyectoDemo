@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-    <TextView
-        android:text="@string/tx_login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView7"
-        android:textColorLink="?android:attr/colorActivatedHighlight"
-        android:textCursorDrawable="@android:color/holo_green_dark"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="66dp"
-        android:gravity="center"
-        android:textSize="36sp"
-        android:fontFamily="cursive"
-        android:textStyle="normal|bold"
-        android:textAllCaps="false" />
 
     <TextView
         android:text="@string/tx_usuario"
@@ -78,6 +62,49 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/login"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/ET_num1"
+        android:layout_alignStart="@+id/ET_num1"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="14dp"
+        android:id="@+id/imageView"
+        android:layout_alignRight="@+id/button7"
+        android:layout_alignEnd="@+id/button7" />
+
+    <TextView
+        android:text="@string/tx_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:textColorLink="?android:attr/colorActivatedHighlight"
+        android:textCursorDrawable="@android:color/holo_green_dark"
+        android:layout_marginTop="55dp"
+        android:textSize="36sp"
+        android:fontFamily="cursive"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignStart="@+id/button9"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp" />
+
+    <Button
+        android:text="@string/bt_recuperar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button9"
+
+        android:gravity="right"
+        android:layout_alignTop="@+id/button7"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
     <Button
         android:text="@string/bt_loguear"
         android:layout_width="wrap_content"
@@ -85,19 +112,11 @@
         android:id="@+id/button7"
         android:gravity="center"
         android:textSize="14sp"
-        android:elevation="0dp"
-        android:layout_marginTop="51dp"
+        android:layout_marginTop="59dp"
+
         android:layout_below="@+id/ET_num2"
         android:layout_alignLeft="@+id/ET_num1"
         android:layout_alignStart="@+id/ET_num1" />
 
-    <Button
-        android:text="@string/bt_recuperar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button9"
-        android:layout_alignBottom="@+id/button7"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

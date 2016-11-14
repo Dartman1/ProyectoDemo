@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:theme="@style/AppTheme"
@@ -19,15 +20,14 @@
         android:id="@+id/buttoni"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+       />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="numberPassword"
         android:ems="10"
-        android:id="@+id/editText3"
-        android:layout_weight="1"
+        android:id="@+id/ET_Contraseña"
         android:hint="@string/ht_ejemplocontraseña"
         android:fontFamily="serif-monospace"
         android:textSize="14sp"
@@ -35,8 +35,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="24dp"
-        android:layout_alignRight="@+id/editText4"
-        android:layout_alignEnd="@+id/editText4" />
+        android:layout_alignRight="@+id/ET_Usuario"
+        android:layout_alignEnd="@+id/ET_Usuario" />
 
     <TextView
         android:text="@string/tx_ingresecontraseña"
@@ -46,7 +46,7 @@
         android:textSize="18sp"
         android:textStyle="normal|bold"
         android:fontFamily="sans-serif-smallcaps"
-        android:layout_above="@+id/editText3"
+        android:layout_above="@+id/ET_Contraseña"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/editText4"
+        android:id="@+id/ET_Usuario"
         android:hint="@string/ht_ejemplousuario"
         android:textSize="14sp"
         android:fontFamily="serif-monospace"
@@ -73,7 +73,7 @@
         android:id="@+id/textView6"
         android:textSize="18sp"
         android:textStyle="normal|bold"
-        android:layout_above="@+id/editText4"
+        android:layout_above="@+id/ET_Usuario"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -192,5 +192,16 @@
         android:textSize="30sp"
         android:textStyle="normal|bold"
         android:fontFamily="sans-serif-smallcaps" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/login"
+        android:id="@+id/imageView3"
+        android:layout_above="@+id/buttoni"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3"
+        tools:ignore="ContentDescription" />
+
 
 </RelativeLayout>

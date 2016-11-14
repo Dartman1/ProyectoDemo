@@ -65,20 +65,6 @@
         android:textStyle="normal|bold" />
 
     <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="20sp"
-        android:inputType="textPersonName"
-        android:text="Name"
-        android:ems="10"
-        android:id="@+id/editText10"
-        android:layout_alignBaseline="@+id/textView28"
-        android:layout_alignBottom="@+id/textView28"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:hint="@string/ht_ejemplonoesta"
-        android:fontFamily="serif-monospace" />
-
-    <EditText
         android:layout_height="20sp"
         android:inputType="textPersonName"
         android:ems="10"
@@ -90,7 +76,8 @@
         android:hint="@string/ht_ejemplonoesta"
         android:layout_toRightOf="@+id/editText7"
         android:layout_toEndOf="@+id/editText7"
-        android:fontFamily="serif-monospace" />
+        android:fontFamily="serif-monospace"
+        android:textSize="14sp" />
 
     <TextView
         android:text="@string/tx_R_egresos"
@@ -146,19 +133,6 @@
         android:layout_above="@+id/textView29"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="@string/tx_otro"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView27"
-        android:layout_above="@+id/editText10"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:fontFamily="sans-serif-smallcaps"
-        android:textAlignment="center"
-        android:textStyle="normal|bold"
-        android:textSize="18sp" />
 
     <Spinner
         android:layout_width="match_parent"
@@ -225,5 +199,32 @@
         android:layout_alignTop="@+id/lista3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/tx_otro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView27"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:layout_below="@+id/lista3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:id="@+id/editText10"
+        android:hint="@string/ht_ejemplonoesta"
+        android:fontFamily="serif-monospace"
+        android:textSize="14sp"
+        android:layout_alignTop="@+id/textView28"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

@@ -19,7 +19,7 @@
     <!--pantalla Login-->
     <string name="tx_usuario">Ingrese Su Usuario </string>
     <string name="tx_contraseña">Ingrese Su Contraseña</string>
-    <string name="tx_login">LOGIN</string>
+    <string name="tx_login">   LOGIN</string>
     <string name="bt_loguear">Ingresar !!!</string>
     <string name="bt_recuperar">Recuperar contraseña </string>
 

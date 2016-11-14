@@ -26,7 +26,7 @@ public class menu1 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 /*EditText Cajatexto = (EditText) findViewById(R.id.button2);*/
-                Toast.makeText(getApplicationContext(), "Login Exitoso !!! ", Toast.LENGTH_LONG).show();
+                //Toast.makeText(getApplicationContext(), "Login Exitoso !!! ", Toast.LENGTH_LONG).show();
                 Intent i = new Intent(getApplicationContext(), Registrar_Ingreso.class);
                 startActivity(i);
             }
